@@ -1,6 +1,9 @@
-# ecommerce-crawler
+# ECOMMERCE-CRAWLER
 
-#phyton test.py
-#scrapy runspider scraper.py
+## Dependencias
+	pipenv install
+	pipenv shell
 
-#renan.fabrao@gmail.com
+## Execucao
+	phyton test.py
+	python ecommerce_spider.py
