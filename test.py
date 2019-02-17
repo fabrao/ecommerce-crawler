@@ -13,7 +13,7 @@ options = Options()
 options.headless = True
 driver = webdriver.Firefox(options=options, executable_path=r'/usr/bin/geckodriver')
 print("### driver.get...")
-driver.get("https://www.submarino.com.br/categoria/celulares-e-smartphones/f/marca-motorola")
+driver.get("https://www.submarino.com.br/categoria/celulares-e-smartphones/smartphone/f/preco-500.0:9000.0")
 
 print("\n### buttons.find...")
 button3 = driver.find_element_by_link_text('3')

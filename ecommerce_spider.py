@@ -92,6 +92,6 @@ class EcommerceSpider(object):
             dict_writer.writerows(self.items)
 
 
-spider = EcommerceSpider("https://www.submarino.com.br/busca/?conteudo=moto%20g&filtro=%5B%7B%22id%22%3A%22category_breadcrumb_name_level_pt_suba_1%22%2C%22value%22%3A%22Celulares%20e%20Smartphones%22%7D%2C%7B%22id%22%3A%22category_breadcrumb_name_level_pt_suba_2%22%2C%22value%22%3A%22Moto%20G%22%7D%5D&ordenacao=moreRelevant&origem=nanook")
+spider = EcommerceSpider("https://www.submarino.com.br/categoria/celulares-e-smartphones/smartphone/f/preco-500.0:9000.0")
 #spider.crawl_to_file("motog.csv")
 spider.crawl()

@@ -1,0 +1,1598 @@
+1550425300353	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.dt9vmn1YjcK8"
+*** You are running in headless mode.
+1550425301052	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550425301052	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550425303455	Marionette	INFO	Listening on port 46091
+1550425303507	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1550425328844	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.JELRkbmUslvV"
+*** You are running in headless mode.
+1550425329673	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550425329673	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550425331694	Marionette	INFO	Listening on port 36855
+1550425331772	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=02-17, line 1: Error: Forbidden
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=1&_date=02-17, line 1: Error: Forbidden
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1550425422952	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.jskaXEUEHgRR"
+*** You are running in headless mode.
+1550425423964	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550425423965	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550425427392	Marionette	INFO	Listening on port 46063
+1550425427462	Marionette	WARN	TLS certificate errors will be ignored for this session
+1550425446083	Marionette	INFO	Stopped listening on port 46063
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3500B9,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1550425613746	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.skIGR452TzBG"
+*** You are running in headless mode.
+1550425614619	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550425614620	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550425617606	Marionette	INFO	Listening on port 34517
+1550425617655	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://statics-submarino.b2w.io/spectre/collector/dist/latest/bundle.js?_date=02-17, line 1: TypeError: setting getter-only property "navigator"
+1550425630971	Marionette	INFO	Stopped listening on port 34517
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1550425964289	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.oMwBDKs02RHP"
+*** You are running in headless mode.
+1550425964994	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550425964995	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550425967054	Marionette	INFO	Listening on port 35149
+1550425967137	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://statics-submarino.b2w.io/spectre/collector/dist/latest/bundle.js?_date=02-17, line 1: TypeError: setting getter-only property "navigator"
+1550425978457	Marionette	INFO	Stopped listening on port 35149
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3500B9,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3500B9,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3500B9,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3500B9,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3500B9,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3500B9,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3500B9,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 6398, Gecko_IOThread] WARNING: pipe error (65): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1550426050817	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ro0xflLoR5JT"
+*** You are running in headless mode.
+1550426051537	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550426051537	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550426053570	Marionette	INFO	Listening on port 39231
+1550426053652	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=02-17, line 1: Error: Forbidden
+1550426066565	Marionette	INFO	Stopped listening on port 39231
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3500B9,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3500B9,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x520006,name=PHttpChannel::Msg_Redirect2Verify) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3500B9,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 6590, Gecko_IOThread] WARNING: pipe error (65): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1550426159410	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.oSChKPUdkDCw"
+*** You are running in headless mode.
+1550426160159	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550426160159	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550426162210	Marionette	INFO	Listening on port 42829
+1550426162239	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=02-17, line 1: Error: Forbidden
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=1&_date=02-17, line 1: Error: Forbidden
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1550426250590	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.izjWwkFKrJZI"
+*** You are running in headless mode.
+1550426251823	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550426251824	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550426255649	Marionette	INFO	Listening on port 44799
+1550426255700	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://statics-submarino.b2w.io/spectre/collector/dist/latest/bundle.js?_date=02-17, line 1: TypeError: setting getter-only property "navigator"
+1550426266753	Marionette	INFO	Stopped listening on port 44799
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+[Parent 6988, Gecko_IOThread] WARNING: pipe error (126): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+1550426345544	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.3zGa3hbtNJmq"
+*** You are running in headless mode.
+1550426346340	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550426346341	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550426348723	Marionette	INFO	Listening on port 38133
+1550426348793	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=02-17, line 1: Error: Forbidden
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=1&_date=02-17, line 1: Error: Forbidden
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1550426376771	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.4okhb8iKK9yM"
+*** You are running in headless mode.
+1550426378237	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550426378237	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[Child 7370, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1550427036675	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.kTjTTDXFBxyf"
+*** You are running in headless mode.
+1550427038180	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550427038181	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550427041519	Marionette	INFO	Listening on port 44925
+1550427041607	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://statics-submarino.b2w.io/spectre/collector/dist/latest/bundle.js?_date=02-17, line 1: TypeError: setting getter-only property "navigator"
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=02-17, line 1: Error: Forbidden
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=1&_date=02-17, line 1: Error: Forbidden
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1550428145895	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.EU4fMCkSYgNp"
+*** You are running in headless mode.
+1550428147039	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550428147039	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550428149875	Marionette	INFO	Listening on port 33153
+1550428149995	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=02-17, line 1: Error: Forbidden
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=1&_date=02-17, line 1: Error: Forbidden
+1550430112171	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.o5yJ14oN7XLU"
+*** You are running in headless mode.
+1550430112865	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550430112865	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550430114891	Marionette	INFO	Listening on port 36221
+1550430115021	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=02-17, line 1: Error: Forbidden
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=1&_date=02-17, line 1: Error: Forbidden
+1550430209340	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.SjGnzggnxq76"
+*** You are running in headless mode.
+1550430209847	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550430209848	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550430212202	Marionette	INFO	Listening on port 39661
+1550430212296	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://statics-submarino.b2w.io/spectre/collector/dist/latest/bundle.js?_date=02-17, line 1: TypeError: setting getter-only property "navigator"
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=02-17, line 1: Error: Forbidden
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=1&_date=02-17, line 1: Error: Forbidden
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1550430274041	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.3rVRA3Q4qyRr"
+*** You are running in headless mode.
+1550430275251	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550430275252	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550430279712	Marionette	INFO	Listening on port 41713
+1550430279961	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://statics-submarino.b2w.io/spectre/collector/dist/latest/bundle.js?_date=02-17, line 1: TypeError: setting getter-only property "navigator"
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=02-17, line 1: Error: Forbidden
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=1&_date=02-17, line 1: Error: Forbidden
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1550430408377	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Vz9cuBR410M7"
+*** You are running in headless mode.
+1550430430097	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550430430124	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550430439158	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.efdaJMQ4SPFH"
+*** You are running in headless mode.
+1550430442173	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550430442187	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550430860020	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.77DVUFeMhTYO"
+*** You are running in headless mode.
+1550430862164	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550430862178	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[Child 4513, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1550431003827	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.gt65zvHGRm6N"
+*** You are running in headless mode.
+1550431004503	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550431004504	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550431006241	Marionette	INFO	Listening on port 33345
+1550431006248	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://statics-submarino.b2w.io/spectre/collector/dist/latest/bundle.js?_date=02-17, line 1: TypeError: setting getter-only property "navigator"
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=02-17, line 1: Error: Forbidden
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=1&_date=02-17, line 1: Error: Forbidden
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1550431223164	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.mgd9ep37Qcr7"
+*** You are running in headless mode.
+1550431223613	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550431223614	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550431225219	Marionette	INFO	Listening on port 35651
+1550431225309	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=02-17, line 1: Error: Forbidden
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=1&_date=02-17, line 1: Error: Forbidden
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1550431271655	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.doWi1Tcxedyb"
+*** You are running in headless mode.
+1550431272223	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550431272224	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550431274141	Marionette	INFO	Listening on port 37043
+1550431274189	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://statics-submarino.b2w.io/spectre/collector/dist/latest/bundle.js?_date=02-17, line 1: TypeError: setting getter-only property "navigator"
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=02-17, line 1: Error: Forbidden
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=1&_date=02-17, line 1: Error: Forbidden
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1550431301569	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.AkQYQgbWtvhS"
+*** You are running in headless mode.
+1550431302489	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550431302490	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550431304950	Marionette	INFO	Listening on port 37577
+1550431305071	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://statics-submarino.b2w.io/spectre/collector/dist/latest/bundle.js?_date=02-17, line 1: TypeError: setting getter-only property "navigator"
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=02-17, line 1: Error: Forbidden
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=1&_date=02-17, line 1: Error: Forbidden
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1550431336739	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.MrB28TzWsb6K"
+*** You are running in headless mode.
+1550431337790	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550431337790	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550431340880	Marionette	INFO	Listening on port 43101
+1550431340910	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://statics-submarino.b2w.io/spectre/collector/dist/latest/bundle.js?_date=02-17, line 1: TypeError: setting getter-only property "navigator"
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=02-17, line 1: Error: Forbidden
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=1&_date=02-17, line 1: Error: Forbidden
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1550431405784	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Cs9hCWUrFnCy"
+*** You are running in headless mode.
+1550431406852	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550431406852	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550431409845	Marionette	INFO	Listening on port 43217
+1550431410685	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://statics-submarino.b2w.io/spectre/collector/dist/latest/bundle.js?_date=02-17, line 1: TypeError: setting getter-only property "navigator"
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=02-17, line 1: Error: Forbidden
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=1&_date=02-17, line 1: Error: Forbidden
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1550432696956	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.pEEKWcN1AobS"
+*** You are running in headless mode.
+1550432697788	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550432697788	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550432699938	Marionette	INFO	Listening on port 35701
+1550432699985	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://statics-submarino.b2w.io/spectre/collector/dist/latest/bundle.js?_date=02-17, line 1: TypeError: setting getter-only property "navigator"
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=02-17, line 1: Error: Forbidden
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=1&_date=02-17, line 1: Error: Forbidden
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1550432805402	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.0TfK9M8E9YhW"
+*** You are running in headless mode.
+1550432806963	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550432806965	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1550432882471	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.9cF6iNieF3cH"
+*** You are running in headless mode.
+1550432883492	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550432883493	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550432935089	Marionette	INFO	Listening on port 41755
+1550432937972	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 2598, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+1550433362786	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.6AzINCIvQflI"
+*** You are running in headless mode.
+1550433363975	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550433363975	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550433367346	Marionette	INFO	Listening on port 38327
+1550433367422	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://statics-submarino.b2w.io/spectre/collector/dist/latest/bundle.js?_date=02-17, line 1: TypeError: setting getter-only property "navigator"
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=02-17, line 1: Error: Forbidden
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=1&_date=02-17, line 1: Error: Forbidden
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1550433775673	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.vt6UUYnEOH0e"
+*** You are running in headless mode.
+1550433776123	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550433776124	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550433779216	Marionette	INFO	Listening on port 45809
+1550433779323	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=02-17, line 1: Error: Forbidden
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=1&_date=02-17, line 1: Error: Forbidden
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1550433827094	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ZZjI8sbyhQ0m"
+*** You are running in headless mode.
+1550433827505	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550433827506	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550433830491	Marionette	INFO	Listening on port 34073
+1550433830618	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://statics-submarino.b2w.io/spectre/collector/dist/latest/bundle.js?_date=02-17, line 1: TypeError: setting getter-only property "navigator"
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=02-17, line 1: Error: Forbidden
+1550433841964	Marionette	INFO	Stopped listening on port 34073
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x520006,name=PHttpChannel::Msg_Redirect2Verify) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x520006,name=PHttpChannel::Msg_Redirect2Verify) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x52000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x52000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1550434462250	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.xT1Fw33BCm5O"
+*** You are running in headless mode.
+1550434462675	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550434462676	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550434464294	Marionette	INFO	Listening on port 46665
+1550434464373	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://statics-submarino.b2w.io/spectre/collector/dist/latest/bundle.js?_date=02-17, line 1: TypeError: setting getter-only property "navigator"
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=02-17, line 1: Error: Forbidden
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=1&_date=02-17, line 1: Error: Forbidden
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1550434504683	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.gaOdl40x3bFq"
+*** You are running in headless mode.
+1550434505137	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550434505137	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550434508412	Marionette	INFO	Listening on port 42137
+1550434508529	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://statics-submarino.b2w.io/spectre/collector/dist/latest/bundle.js?_date=02-17, line 1: TypeError: setting getter-only property "navigator"
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=02-17, line 1: Error: Forbidden
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=1&_date=02-17, line 1: Error: Forbidden
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1550434756840	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.g7pgFu9YP5wJ"
+*** You are running in headless mode.
+1550434757591	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550434757591	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550434760834	Marionette	INFO	Listening on port 35673
+1550434760950	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://statics-submarino.b2w.io/spectre/collector/dist/latest/bundle.js?_date=02-17, line 1: TypeError: setting getter-only property "navigator"
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=02-17, line 1: Error: Forbidden
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=1&_date=02-17, line 1: Error: Forbidden
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1550434845746	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.vGAdITe0mZge"
+*** You are running in headless mode.
+1550434846239	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550434846239	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550434848492	Marionette	INFO	Listening on port 35629
+1550434849367	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://statics-submarino.b2w.io/spectre/collector/dist/latest/bundle.js?_date=02-17, line 1: TypeError: setting getter-only property "navigator"
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=02-17, line 1: Error: Forbidden
+1550434859968	Marionette	INFO	Stopped listening on port 35629
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x520006,name=PHttpChannel::Msg_Redirect2Verify) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3500B9,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3500B9,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1550434919741	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ZShpY3lOYMGd"
+*** You are running in headless mode.
+1550434920210	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550434920210	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550434922334	Marionette	INFO	Listening on port 33525
+1550434922381	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://statics-submarino.b2w.io/spectre/collector/dist/latest/bundle.js?_date=02-17, line 1: TypeError: setting getter-only property "navigator"
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=02-17, line 1: Error: Forbidden
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=1&_date=02-17, line 1: Error: Forbidden
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1550435036774	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.NVmGFFqqWFiA"
+*** You are running in headless mode.
+1550435037274	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550435037275	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550435039708	Marionette	INFO	Listening on port 32781
+1550435040515	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://statics-submarino.b2w.io/spectre/collector/dist/latest/bundle.js?_date=02-17, line 1: TypeError: setting getter-only property "navigator"
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=02-17, line 1: Error: Forbidden
+1550435052065	Marionette	INFO	Stopped listening on port 32781
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x52000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x520006,name=PHttpChannel::Msg_Redirect2Verify) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x520006,name=PHttpChannel::Msg_Redirect2Verify) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3500B9,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3500B9,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1550435130429	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.uVDH43qX62QM"
+*** You are running in headless mode.
+1550435130985	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550435130985	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550435132860	Marionette	INFO	Listening on port 44301
+1550435132998	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://statics-submarino.b2w.io/spectre/collector/dist/latest/bundle.js?_date=02-17, line 1: TypeError: setting getter-only property "navigator"
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=02-17, line 1: Error: Forbidden
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=1&_date=02-17, line 1: Error: Forbidden
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1550435210304	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.HlFjLNSqmo7L"
+*** You are running in headless mode.
+1550435211080	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550435211081	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550435214049	Marionette	INFO	Listening on port 39099
+1550435214168	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://statics-submarino.b2w.io/spectre/collector/dist/latest/bundle.js?_date=02-17, line 1: TypeError: setting getter-only property "navigator"
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=02-17, line 1: Error: Forbidden
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=1&_date=02-17, line 1: Error: Forbidden
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1550435310283	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.wuVfYD6rwq92"
+*** You are running in headless mode.
+1550435311526	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550435311527	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550435314852	Marionette	INFO	Listening on port 35511
+1550435314922	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://statics-submarino.b2w.io/spectre/collector/dist/latest/bundle.js?_date=02-17, line 1: TypeError: setting getter-only property "navigator"
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=02-17, line 1: Error: Forbidden
+1550435327496	Marionette	INFO	Stopped listening on port 35511
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3500B9,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3500B9,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x520006,name=PHttpChannel::Msg_Redirect2Verify) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1550435342997	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.G1VxfM4eS0Ro"
+*** You are running in headless mode.
+1550435343905	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550435343905	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550435346423	Marionette	INFO	Listening on port 34733
+1550435346459	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://statics-submarino.b2w.io/spectre/collector/dist/latest/bundle.js?_date=02-17, line 1: TypeError: setting getter-only property "navigator"
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=02-17, line 1: Error: Forbidden
+1550435359273	Marionette	INFO	Stopped listening on port 34733
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3500B9,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3500B9,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x520006,name=PHttpChannel::Msg_Redirect2Verify) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3500B9,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1550435406411	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.zEuL3kfkwzY9"
+*** You are running in headless mode.
+1550435406996	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550435406996	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550435408979	Marionette	INFO	Listening on port 33685
+1550435409030	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://statics-submarino.b2w.io/spectre/collector/dist/latest/bundle.js?_date=02-17, line 1: TypeError: setting getter-only property "navigator"
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=02-17, line 1: Error: Forbidden
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=1&_date=02-17, line 1: Error: Forbidden
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1550435473280	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.gXM30pEWIWVR"
+*** You are running in headless mode.
+1550435473849	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550435473849	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550435476652	Marionette	INFO	Listening on port 37969
+1550435476753	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://statics-submarino.b2w.io/spectre/collector/dist/latest/bundle.js?_date=02-17, line 1: TypeError: setting getter-only property "navigator"
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=02-17, line 1: Error: Forbidden
+1550435488985	Marionette	INFO	Stopped listening on port 37969
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x520006,name=PHttpChannel::Msg_Redirect2Verify) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x520006,name=PHttpChannel::Msg_Redirect2Verify) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3500B9,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3500B9,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1550435845097	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.F4PtZ3GVti8d"
+*** You are running in headless mode.
+1550435845797	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550435845797	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550435847910	Marionette	INFO	Listening on port 41411
+1550435847956	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://statics-submarino.b2w.io/spectre/collector/dist/latest/bundle.js?_date=02-17, line 1: TypeError: setting getter-only property "navigator"
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=02-17, line 1: Error: Forbidden
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=1&_date=02-17, line 1: Error: Forbidden
+1550435858372	Marionette	INFO	Stopped listening on port 41411
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1550435896952	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.KVsIDT9QareE"
+*** You are running in headless mode.
+1550435897530	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550435897530	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550435899747	Marionette	INFO	Listening on port 40525
+1550435899794	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://statics-submarino.b2w.io/spectre/collector/dist/latest/bundle.js?_date=02-17, line 1: TypeError: setting getter-only property "navigator"
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=02-17, line 1: Error: Forbidden
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=1&_date=02-17, line 1: Error: Forbidden
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1550435937895	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.lJUzUZZ8E08u"
+*** You are running in headless mode.
+1550435938729	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550435938729	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550435941630	Marionette	INFO	Listening on port 34749
+1550435941674	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://statics-submarino.b2w.io/spectre/collector/dist/latest/bundle.js?_date=02-17, line 1: TypeError: setting getter-only property "navigator"
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=02-17, line 1: Error: Forbidden
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=1&_date=02-17, line 1: Error: Forbidden
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1550436000685	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.oQ8o3jbWpg1A"
+*** You are running in headless mode.
+1550436001991	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550436001992	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550436006332	Marionette	INFO	Listening on port 44751
+1550436006484	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 3983, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 3107, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 3087, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+Sandbox: Unexpected EOF, op 0 flags 00 path /usr/share/locale/en_US.UTF-8/LC_MESSAGES/libc.mo
+[Child 3148, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 3523, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 3479, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 3459, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 3940, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[Child 3919, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 4180, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 4136, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 4116, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 4784, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 4739, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 4718, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 5589, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 5408, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 5366, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 5346, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+[Child 5546, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 5527, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 2848, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[Child 2248, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+1550436105559	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.aXbre7oGXGk1"
+*** You are running in headless mode.
+1550436106239	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550436106240	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550436108001	Marionette	INFO	Listening on port 42003
+1550436108122	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://statics-submarino.b2w.io/spectre/collector/dist/latest/bundle.js?_date=02-17, line 1: TypeError: setting getter-only property "navigator"
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=02-17, line 1: Error: Forbidden
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=1&_date=02-17, line 1: Error: Forbidden
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1550436166282	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Y7dSal505K2e"
+*** You are running in headless mode.
+1550436166726	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550436166726	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550436168361	Marionette	INFO	Listening on port 44633
+1550436168400	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://statics-submarino.b2w.io/spectre/collector/dist/latest/bundle.js?_date=02-17, line 1: TypeError: setting getter-only property "navigator"
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=02-17, line 1: Error: Forbidden
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=1&_date=02-17, line 1: Error: Forbidden
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 6020, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 5976, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 5955, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 6196, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 6152, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 6132, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+1550436193663	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.1l9SPqD9uIh1"
+*** You are running in headless mode.
+1550436194062	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550436194063	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550436195625	Marionette	INFO	Listening on port 41643
+1550436195717	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://statics-submarino.b2w.io/spectre/collector/dist/latest/bundle.js?_date=02-17, line 1: TypeError: setting getter-only property "navigator"
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=02-17, line 1: Error: Forbidden
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=1&_date=02-17, line 1: Error: Forbidden
+1550436203554	Marionette	INFO	Stopped listening on port 41643
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3500B9,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1550436338925	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.PpbPK2yqrW0t"
+*** You are running in headless mode.
+1550436339386	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550436339387	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550436341429	Marionette	INFO	Listening on port 39929
+1550436341462	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://statics-submarino.b2w.io/spectre/collector/dist/latest/bundle.js?_date=02-17, line 1: TypeError: setting getter-only property "navigator"
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=02-17, line 1: Error: Forbidden
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=1&_date=02-17, line 1: Error: Forbidden
+1550436353042	Marionette	INFO	Stopped listening on port 39929
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x52000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3500B9,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1550436913858	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.mFDKJLKGH1Qa"
+*** You are running in headless mode.
+1550436914310	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550436914310	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550436916041	Marionette	INFO	Listening on port 45617
+1550436916087	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://statics-submarino.b2w.io/spectre/collector/dist/latest/bundle.js?_date=02-17, line 1: TypeError: setting getter-only property "navigator"
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=1&_date=02-17, line 1: Error: Forbidden
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=02-17, line 1: Error: Forbidden
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1550436941761	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ykWkIIFQbZMy"
+*** You are running in headless mode.
+1550436942189	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550436942190	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550436943896	Marionette	INFO	Listening on port 46657
+1550436944020	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://statics-submarino.b2w.io/spectre/collector/dist/latest/bundle.js?_date=02-17, line 1: TypeError: setting getter-only property "navigator"
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=02-17, line 1: Error: Forbidden
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=1&_date=02-17, line 1: Error: Forbidden
+1550436952782	Marionette	INFO	Stopped listening on port 46657
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3500B9,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1550437107916	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.iEjKRnIum2qh"
+*** You are running in headless mode.
+1550437108334	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550437108334	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550437110021	Marionette	INFO	Listening on port 35561
+1550437110054	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://statics-submarino.b2w.io/spectre/collector/dist/latest/bundle.js?_date=02-17, line 1: TypeError: setting getter-only property "navigator"
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=02-17, line 1: Error: Forbidden
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=1&_date=02-17, line 1: Error: Forbidden
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1550437179495	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.KGhL4kwCttpe"
+*** You are running in headless mode.
+1550437179922	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550437179922	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550437181622	Marionette	INFO	Listening on port 38797
+1550437181720	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://statics-submarino.b2w.io/spectre/collector/dist/latest/bundle.js?_date=02-17, line 1: TypeError: setting getter-only property "navigator"
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=02-17, line 1: Error: Forbidden
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=1&_date=02-17, line 1: Error: Forbidden
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1550437263733	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.cBEhDpMawSRl"
+*** You are running in headless mode.
+1550437264180	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550437264180	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550437266002	Marionette	INFO	Listening on port 36481
+1550437266086	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://statics-submarino.b2w.io/spectre/collector/dist/latest/bundle.js?_date=02-17, line 1: TypeError: setting getter-only property "navigator"
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=02-17, line 1: Error: Forbidden
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=1&_date=02-17, line 1: Error: Forbidden
+1550437275045	Marionette	INFO	Stopped listening on port 36481
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1550437440972	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.oK9FIRO1lC3J"
+*** You are running in headless mode.
+1550437441414	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550437441414	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550437443172	Marionette	INFO	Listening on port 37009
+1550437443195	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://statics-submarino.b2w.io/spectre/collector/dist/latest/bundle.js?_date=02-17, line 1: TypeError: setting getter-only property "navigator"
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=02-17, line 1: Error: Forbidden
+1550437450799	Marionette	INFO	Stopped listening on port 37009
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3500B9,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3500B9,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3500B9,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3500B9,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1550437482297	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.NwyE3cgzjojB"
+*** You are running in headless mode.
+1550437482796	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550437482796	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550437484580	Marionette	INFO	Listening on port 42177
+1550437484621	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://statics-submarino.b2w.io/spectre/collector/dist/latest/bundle.js?_date=02-17, line 1: TypeError: setting getter-only property "navigator"
+1550437492122	Marionette	INFO	Stopped listening on port 42177
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=02-17, line 1: Error: Forbidden
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x52000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3500B9,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3500B9,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3500B9,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3500B9,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3500B9,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1550437923915	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.sm42vET7A7hf"
+*** You are running in headless mode.
+1550437924359	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550437924359	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550437926144	Marionette	INFO	Listening on port 36929
+1550437926233	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://statics-submarino.b2w.io/spectre/collector/dist/latest/bundle.js?_date=02-17, line 1: TypeError: setting getter-only property "navigator"
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=02-17, line 1: Error: Forbidden
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=1&_date=02-17, line 1: Error: Forbidden
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 7575, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 7401, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 7530, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 7510, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 7358, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 7338, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 7036, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 6991, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 6971, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 8349, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 8305, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 8285, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+1550437968098	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.tk4r7asc01SY"
+*** You are running in headless mode.
+1550437968502	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550437968502	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550437970082	Marionette	INFO	Listening on port 36481
+1550437970120	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=02-17, line 1: Error: Forbidden
+1550437980161	Marionette	INFO	Stopped listening on port 36481
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=1&_date=02-17, line 1: Error: Forbidden
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3500B9,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3500B9,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x520006,name=PHttpChannel::Msg_Redirect2Verify) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x520006,name=PHttpChannel::Msg_Redirect2Verify) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x52000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3500B9,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1550438291006	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.YaJMzGdUD0NQ"
+*** You are running in headless mode.
+1550438291404	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550438291405	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550438292971	Marionette	INFO	Listening on port 36969
+1550438293054	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://statics-submarino.b2w.io/spectre/collector/dist/latest/bundle.js?_date=02-17, line 1: TypeError: setting getter-only property "navigator"
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=02-17, line 1: Error: Forbidden
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=1&_date=02-17, line 1: Error: Forbidden
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1550439108884	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.gkz4ascfI4cA"
+*** You are running in headless mode.
+1550439109332	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550439109333	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550439111151	Marionette	INFO	Listening on port 37051
+1550439111222	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://statics-submarino.b2w.io/spectre/collector/dist/latest/bundle.js?_date=02-17, line 1: TypeError: setting getter-only property "navigator"
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=02-17, line 1: Error: Forbidden
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=1&_date=02-17, line 1: Error: Forbidden
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1550439147425	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.fXqStIK4a576"
+*** You are running in headless mode.
+1550439147998	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550439148003	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550439150654	Marionette	INFO	Listening on port 34429
+1550439151384	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://statics-submarino.b2w.io/spectre/collector/dist/latest/bundle.js?_date=02-17, line 1: TypeError: setting getter-only property "navigator"
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=02-17, line 1: Error: Forbidden
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=1&_date=02-17, line 1: Error: Forbidden
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 9324, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 9281, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 9261, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-HN7tk_/firefox-65.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 349
+Exiting due to channel error.
+1550439289313	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.l80fmbH1h4Mx"
+*** You are running in headless mode.
+1550439289792	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550439289793	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550439292144	Marionette	INFO	Listening on port 34891
+1550439292265	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://statics-submarino.b2w.io/spectre/collector/dist/latest/bundle.js?_date=02-17, line 1: TypeError: setting getter-only property "navigator"
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=02-17, line 1: Error: Forbidden
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=1&_date=02-17, line 1: Error: Forbidden
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1550439336400	Marionette	INFO	Stopped listening on port 34891
+1550439822086	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Qwz7YVjpC0KR"
+*** You are running in headless mode.
+1550439822536	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550439822536	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550439824277	Marionette	INFO	Listening on port 40969
+1550439824321	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://statics-submarino.b2w.io/spectre/collector/dist/latest/bundle.js?_date=02-17, line 1: TypeError: setting getter-only property "navigator"
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=2&_date=02-17, line 1: Error: Forbidden
+JavaScript error: https://www.submarino.com.br/dist/static/cage/55d3fcccb610da66f4cbf0c0526ea408/cage.html?outputID=1&_date=02-17, line 1: Error: Forbidden
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1550439867341	Marionette	INFO	Stopped listening on port 40969
