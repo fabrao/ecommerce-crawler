@@ -1,0 +1,32 @@
+<span class="TextUI-sc-1hrwx40-0 fsEHP" id="product-name-default">Notebook A315-51-30V4 8ª Intel Core I3 4GB 1TB LED 15.6'' W10 Preto - Acer</span>
+	<section class="buy-box">
+		<section class="main-offer">
+			<div class="SpacingUI-sc-1h1d3az-0 ixwgqR ViewUI-oocyw8-6 kvewNe">
+				<div class="ViewUI-oocyw8-6 kvewNe">
+					<div class="FlexboxUI-gb7uyx-0 jxIDIQ ViewUI-oocyw8-6 kvewNe">
+						<div class="CellUI-bzkvmr-0 bxoBiy ViewUI-oocyw8-6 kvewNe">
+							<svg class="SvgUI-sc-1hby79s-0 fXgkWF" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="svg-title" aria-describedby="svg-desc" width="30" height="22">
+								<use xlink:href="#icon-ame" fill="#666"/>
+							</svg>
+						</div>
+						<div class="CellUI-bzkvmr-0 cCwAwf ViewUI-oocyw8-6 kvewNe">
+							<span class="TextUI-sc-1hrwx40-0 bidfiO">
+								<span class="TextUI-sc-1hrwx40-0 jAJxGo">R$ 2.704,71</span>
+								<span class="TextUI-sc-1hrwx40-0 hbVZKK"> em até 12x de <span class="sc-caSCKo gKsojF TextUI-sc-1hrwx40-0 hbVZKK">R$ 225,39</span> s/ juros</span> com Ame e receba <span class="TextUI-sc-1hrwx40-0 gdEOLh">
+									<span class="sc-caSCKo gKsojF TextUI-sc-1hrwx40-0 hbVZKK">R$ 135,24</span> (5% de volta) </span>
+								<span class="LinkText-tzhptb-1 eZdAvi TextUI-sc-1hrwx40-0 hbVZKK" role="link">
+									<svg class="SvgUI-sc-1hby79s-0 ewfmNv" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="svg-title" aria-describedby="svg-desc" width="20" height="15">
+										<use xlink:href="#icon-attendance-doubt"/>
+									</svg>
+								</span>
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="FlexboxUI-gb7uyx-0 jxIDIQ ViewUI-oocyw8-6 kvewNe" id="boleto"> </div>
+				<div class="FlexboxUI-gb7uyx-0 jxIDIQ ViewUI-oocyw8-6 kvewNe" id="creditCard"> </div>
+				<div class="FlexboxUI-gb7uyx-0 jxIDIQ ViewUI-oocyw8-6 kvewNe" id="brandCard"> </div>
+			</div>
+		</section>
+	</section>
+</span>
