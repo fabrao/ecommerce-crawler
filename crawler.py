@@ -1,5 +1,5 @@
 from contextlib import closing
-from selenium.webdriver import Firefox # pip install selenium
+from selenium.webdriver import Firefox
 from selenium.webdriver.support.ui import WebDriverWait
 from bs4 import BeautifulSoup
 from selenium.webdriver.common.by import By
@@ -15,32 +15,43 @@ options.headless = True
 
 print('firefox-agent starting...') #executa firefox-agent
 driver = webdriver.Firefox(options=options, executable_path=r'/usr/bin/geckodriver')
-print('opening start-url...') #abre html inicial das buscas do submarino no firefox-agent
-driver.get("https://www.submarino.com.br/categoria/celulares-e-smartphones/smartphone/f/preco-500.0:9000.0")
+print('opening first url...') #abre html inicial das buscas do submarino no firefox-agent
+driver.get("https://www.submarino.com.br/categoria/celulares-e-smartphones/smartphone/f/preco-5000.0:9000.0")
 
+#r: abre o arquivo para leitura e escrita. O stream é posicionado no início do arquivo.
+#w: abre o arquivo para leitura e escrita. O stream é posicionado no início do arquivo e o arquivo será criado caso não exista.
+#a: abre o arquivo para leitura e escrita. O arquivo será criado caso não exista e o stream é posicionado no final do arquivo.
+file = open("product_code_list.txt","w") 
 
-for x in range(3):
-    print('\nLOOP: %s' % x)
-    #define o botao next-page
-    buttonNext = driver.find_elements_by_xpath("//div[@class='card card-pagination']/ul/li[last()]/a")
-    buttonNext = buttonNext[0]
-
+while True:
     #cria lista com o html dos 24 itens exibidos na busca
-    listItens = driver.find_elements_by_css_selector("div.main-grid div.product-grid-item")
+    list_itens = driver.find_elements_by_css_selector("div.main-grid div.product-grid-item")
 
     #percorre a lista de itens
-    for item in listItens:
+    for item in list_itens:
         item_srce = item.get_attribute("outerHTML")
         item_html = parser.fromstring(item_srce)
         item_href = item_html.xpath("//a/@href")
         #faz o split do conteudo do href aprovaitando apenas a parte da string anterior a '?' (/produto/133453126)
-        item_link = item_href[0].split("?")[0]
+        item_link = item_href[0].split("?")[0].replace('/produto/','') #DE:/produto/133453126 PARA:133453126
         print(item_link)
+        file.write(item_link)
+        file.write('\n')
 
-    buttonNext.click() # Clica no botao prox.pagina
-    time.sleep(10) #sleep para carregar novos itens
-    page_source = driver.page_source
+    #define o botao next-page
+    button_next = driver.find_elements_by_xpath("//div[@class='card card-pagination']/ul/li[last()]/a")[0]
+    source_next = button_next.get_attribute("outerHTML")
+    
+    if 'href="#"' not in source_next: 
+        button_next.click() #clica no botao prox.pagina
+        time.sleep(5) #sleep para carregar novos itens
+    else:
+        break
 
-#soup = BeautifulSoup(page_source, "lxml")
-#print(soup.prettify())
+'''
+page_source = driver.page_source
+soup = BeautifulSoup(page_source, "lxml")
+print(soup.prettify())
+'''
+file.close()
 driver.quit()

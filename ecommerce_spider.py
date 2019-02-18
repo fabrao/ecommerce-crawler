@@ -20,14 +20,13 @@ class EcommerceSpider(object):
         self.save_items(filename)
 
     def get_links(self):
-        item_url_xpath = "//a[@class='card-product-url']/@href"
-        #next_page_xpath = "//div[@class='card card-pagination']/a/@href"
-        next_page_xpath = "//div[@class='card card-pagination']/ul/li/a/@href"
         r = requests.get(self.start_url)
         html = parser.fromstring(r.text)
-        #print ("HTML: %s" % r.text)
+
+        item_url_xpath = "//a[@class='card-product-url']/@href"
+        next_page_xpath = "//div[@class='card card-pagination']/ul/li/a/@href"
         self.parse_links(html, item_url_xpath)
-        #print ("LISTA: %s " % html.xpath(next_page_xpath)[9])
+
         next_page = html.xpath(next_page_xpath)[9]
         print ("NEXT_PAGE-PRIMEIRO: %s" % next_page)
 
