@@ -5,5 +5,4 @@
 	#pipenv shell
 
 ## Execucao
-	#phyton test.py
-	#python ecommerce_spider.py
+	#python crawler.py
