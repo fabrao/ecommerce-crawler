@@ -16,7 +16,7 @@ options.headless = True
 print('firefox-agent starting...') #executa firefox-agent
 driver = webdriver.Firefox(options=options, executable_path=r'/usr/bin/geckodriver')
 print('opening first url...') #abre html inicial das buscas do submarino no firefox-agent
-driver.get("https://www.submarino.com.br/categoria/celulares-e-smartphones/smartphone/f/preco-5000.0:9000.0")
+driver.get("https://www.submarino.com.br/categoria/celulares-e-smartphones/smartphone/f/preco-500.0:9000.0")
 
 #r: abre o arquivo para leitura e escrita. O stream é posicionado no início do arquivo.
 #w: abre o arquivo para leitura e escrita. O stream é posicionado no início do arquivo e o arquivo será criado caso não exista.
@@ -46,7 +46,7 @@ while True:
     
     if 'href="#"' not in source_next: 
         button_next.click() #clica no botao prox.pagina
-        time.sleep(5) #sleep para carregar novos itens
+        time.sleep(10) #sleep para carregar novos itens
     else:
         break
 
