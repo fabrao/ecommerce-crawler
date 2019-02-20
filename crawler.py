@@ -21,12 +21,14 @@ driver.get("https://www.submarino.com.br/categoria/celulares-e-smartphones/smart
 #r: abre o arquivo para leitura e escrita. O stream é posicionado no início do arquivo.
 #w: abre o arquivo para leitura e escrita. O stream é posicionado no início do arquivo e o arquivo será criado caso não exista.
 #a: abre o arquivo para leitura e escrita. O arquivo será criado caso não exista e o stream é posicionado no final do arquivo.
-file = open("product_code_list.txt","w") 
+#limpa arquivo
+open('product_code_list.txt','w').close()
 
 while True:
     #cria lista com o html dos 24 itens exibidos na busca
     list_itens = driver.find_elements_by_css_selector("div.main-grid div.product-grid-item")
 
+    file = open("product_code_list.txt","a") 
     #percorre a lista de itens
     for item in list_itens:
         item_srce = item.get_attribute("outerHTML")
@@ -48,10 +50,10 @@ while True:
     else:
         break
 
+    file.close()
 '''
 page_source = driver.page_source
 soup = BeautifulSoup(page_source, "lxml")
 print(soup.prettify())
 '''
-file.close()
 driver.quit()
