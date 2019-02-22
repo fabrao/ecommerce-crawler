@@ -40,7 +40,7 @@ for cod_produto in lista_produtos:
 
 		desconto_ccloja = int(100-((preco_ccloja*100)/preco_produto))
 
-		lista_resultados.write("%r,%r,%r,%r,%r,\n" % (desconto_ame, desconto_ccloja, preco_produto, cod_produto, nome_produto))
+		lista_resultados.write("%r,%r,%r,%r,%r\n" % (desconto_ame, desconto_ccloja, preco_produto, cod_produto, nome_produto))
 		print (cod_produto)
 	except:
 		try:
