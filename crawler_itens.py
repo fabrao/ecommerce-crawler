@@ -1,66 +1,94 @@
 from lxml.cssselect import CSSSelector
+from datetime import datetime
 from lxml import html
+from shutil import copyfile
 import requests
 import traceback
 import sys
+import os
 
-loja=sys.argv[1]
-url_loja = 'https://www.'+loja+'.com.br/produto/'
+store = sys.argv[1]
+category = sys.argv[2]
 
-lista_produtos = open(sys.argv[2])
+products_filepath = 'products/'+category+'.txt'
+results_filepath = 'results/'+category+'-'+store+'.txt'
 
-open(sys.argv[3],'w').close() #limpar arquivo
-lista_resultados = open(sys.argv[3],'a')
+products_filepath_tmp = products_filepath.replace('.txt', '_tmp.txt')
+url_base = 'https://www.'+store+'.com.br/produto/'
 
-for cod_produto in lista_produtos:
+print ('### BEGIN: %s ###' % str(datetime.now()))
 
-	page = html.fromstring(requests.get(url_loja + cod_produto).content)
-	cod_produto = cod_produto.replace('\n','')
+list_gallery_codes = set()
+products_file = open(products_filepath)
+#r: abre o arquivo para leitura e escrita. O stream é posicionado no início do arquivo.
+#w: abre o arquivo para leitura e escrita. O stream é posicionado no início do arquivo e o arquivo será criado caso não exista.
+#a: abre o arquivo para leitura e escrita. O arquivo será criado caso não exista e o stream é posicionado no final do arquivo.
+
+open(results_filepath,'w').close() #limpar arquivo
+
+for product_code in products_file:
+
+	page = html.fromstring(requests.get(url_base + product_code).content)
+	product_code = product_code.replace('\n','')
 	
 	try:
-		nome_produto = page.cssselect("#product-name-default")[0].text
+		full_price_html = page.xpath("//p[@class='sales-price']/text()")[0]
+		full_price_result = float(full_price_html.replace('R$ ','').replace('.','').replace(',','.'))
 
-		html_preco = page.xpath("//p[@class='sales-price']/text()")[0]
-		preco_produto = float(html_preco.replace('R$ ','').replace('.','').replace(',','.'))
+		#AME CASH-BACK
+		ame_html = page.xpath("//span[contains(text(),'com Ame e receba')]/span[3]/span/text()")[0]
+		ame_result = float(ame_html.replace('R$ ','').replace('.','').replace(',','.'))
+		ame_off = int((ame_result*100)/full_price_result)
 
-		#//span[contains(text(),"com Ame e receba")]/span[3]/span
-		'''
-		if loja == 'americanas':
-			html_cb_ame = page.xpath("//div[@class='buybox-b-panel']/div/div[3]/div/div/div[1]/div/div[2]/span/span[3]/span/text()")[0]
-		else:
-			html_cb_ame = page.xpath("//section[@class='buy-box']/div/div[1]/div/div[2]/span/span[3]/span/text()")[0]
-		'''
-		html_cb_ame = page.xpath("//span[contains(text(),'com Ame e receba')]/span[3]/span/text()")[0]
-		cashback_ame = float(html_cb_ame.replace('R$ ','').replace('.','').replace(',','.'))
+		#CARTAO CREDITO LOJA
+		scc_html = page.xpath("//div/div[@id='brandCard']/div[2]/span/span/span[1]/span[1]/text()")[0]
+		scc_result = float(scc_html.replace('R$ ','').replace('.','').replace(',','.'))
+		scc_off = int(100-((scc_result*100)/full_price_result))
 
-		desconto_ame = int((cashback_ame*100)/preco_produto)
+		if ame_off < 15 and scc_off < 15:
+			continue
 
-		html_ccloja = page.xpath("//div/div[@id='brandCard']/div[2]/span/span/span[1]/span[1]/text()")[0]
-		preco_ccloja = float(html_ccloja.replace('R$ ','').replace('.','').replace(',','.'))
-
-		desconto_ccloja = int(100-((preco_ccloja*100)/preco_produto))
-
-		lista_resultados.write("%r,%r,%r,%r,%r\n" % (desconto_ame, desconto_ccloja, preco_produto, cod_produto, nome_produto))
-		print (cod_produto)
+		product_name = page.cssselect("#product-name-default")[0].text
+		results_file = open(results_filepath,'a')
+		results_file.write("%d,%d,%.2f,%s,%s\n" % (ame_off, scc_off, full_price_result, product_code, product_name))
+		results_file.close()
 	except:
 		try:
-			out_of_stock = page.xpath("//span[@id='title-stock']")[0]
-			print ('%s: fora de estoque' % cod_produto)
+			card_variations = page.xpath("//div[@class='variations-wrapper']/span[@class='variations-message']")[0]
+			print ('%s: card_variations' % product_code)
 		except:
 			try:
-				is_not_product = page.xpath("//div[@data-component='aggregations']")[0]
-				print ('%s: galeria de produtos' % cod_produto)
+				out_of_stock = page.xpath("//span[@id='title-stock']")[0]
+				print ('%s: fora de estoque' % product_code)
 			except:
 				try:
-					card_variations = page.xpath("//div[@class='variations-wrapper']/span[@class='variations-message']")[0]
-					print ('%s: card_variations' % cod_produto)
+					its_gallery = page.xpath("//div[@data-component='aggregations']")[0]
+					print ('%s: galeria de produtos' % product_code)
+					list_gallery_codes.add(product_code+'\n')
 				except:
 					try:
 						not_found = page.xpath("//div[@data-component='notfound']")[0]
-						print ('%s: nao encontrado' % cod_produto)
+						print ('%s: nao encontrado' % product_code)
 					except Exception as e:
-						print ('%s: exception' % cod_produto)
-						traceback.print_exc()
-				
-lista_resultados.close()
-lista_produtos.close()
+						print ('%s: exception' % product_code)
+						error_file = open('logs/crawler_itens_error.log','a')
+						error_file.write('##### %s - %s - %s #####\n' % (str(datetime.now()), loja, product_code))
+						traceback.print_exc(file = error_file)
+						error_file.write('\n\n')
+						error_file.close()
+
+products_file.close()
+
+#Remove codigo de galerias da lista de produtos
+if list_gallery_codes:
+	copyfile(products_filepath, products_filepath_tmp)
+	products_file  = open(products_filepath, "w")
+	products_file_tmp = open(products_filepath_tmp, "r")
+	for code in products_file_tmp:
+		if code not in list_gallery_codes:
+			products_file.write(code)
+	products_file.close()
+	products_file_tmp.close()
+	os.remove(products_filepath_tmp)
+
+print ('#### END: %s ####' % str(datetime.now()))

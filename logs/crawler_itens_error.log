@@ -1,0 +1,490 @@
+##### 2019-02-22 22:23:47.664232 - shoptime - 44135814 
+ #####Traceback (most recent call last):
+  File "crawler_itens.py", line 24, in <module>
+    html_cb_ame = page.xpath("//span[contains(text(),'com Ame e receba')]/span[3]/span/text()")[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 44, in <module>
+    out_of_stock = page.xpath("//span[@id='title-stock']")[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 48, in <module>
+    is_not_product = page.xpath("//div[@data-component='aggregations']")[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 52, in <module>
+    card_variations = page.xpath("//div[@class='variations-wrapper']/span[@class='variations-message']")[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 56, in <module>
+    not_found = page.xpath("//div[@data-component='notfound']")[0]
+IndexError: list index out of range
+
+
+##### 2019-02-22 22:34:50.287363 - shoptime - 51721628 
+ #####Traceback (most recent call last):
+  File "crawler_itens.py", line 21, in <module>
+    html_preco = page.xpath("//p[@class='sales-price']/text()")[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 44, in <module>
+    out_of_stock = page.xpath("//span[@id='title-stock']")[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 48, in <module>
+    is_not_product = page.xpath("//div[@data-component='aggregations']")[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 52, in <module>
+    card_variations = page.xpath("//div[@class='variations-wrapper']/span[@class='variations-message']")[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 56, in <module>
+    not_found = page.xpath("//div[@data-component='notfound']")[0]
+IndexError: list index out of range
+
+
+##### 2019-02-22 22:35:00.053401 - shoptime - 51721628 
+ #####Traceback (most recent call last):
+  File "crawler_itens.py", line 21, in <module>
+    html_preco = page.xpath("//p[@class='sales-price']/text()")[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 44, in <module>
+    out_of_stock = page.xpath("//span[@id='title-stock']")[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 48, in <module>
+    is_not_product = page.xpath("//div[@data-component='aggregations']")[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 52, in <module>
+    card_variations = page.xpath("//div[@class='variations-wrapper']/span[@class='variations-message']")[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 56, in <module>
+    not_found = page.xpath("//div[@data-component='notfound']")[0]
+IndexError: list index out of range
+
+
+##### 2019-02-22 22:35:49.579851 - shoptime - 15985534 
+ #####Traceback (most recent call last):
+  File "crawler_itens.py", line 24, in <module>
+    html_cb_ame = page.xpath("//span[contains(text(),'com Ame e receba')]/span[3]/span/text()")[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 44, in <module>
+    out_of_stock = page.xpath("//span[@id='title-stock']")[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 48, in <module>
+    is_not_product = page.xpath("//div[@data-component='aggregations']")[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 52, in <module>
+    card_variations = page.xpath("//div[@class='variations-wrapper']/span[@class='variations-message']")[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 56, in <module>
+    not_found = page.xpath("//div[@data-component='notfound']")[0]
+IndexError: list index out of range
+
+
+##### 2019-02-22 22:36:53.255460 - shoptime - 51721633 
+ #####Traceback (most recent call last):
+  File "crawler_itens.py", line 21, in <module>
+    html_preco = page.xpath("//p[@class='sales-price']/text()")[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 44, in <module>
+    out_of_stock = page.xpath("//span[@id='title-stock']")[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 48, in <module>
+    is_not_product = page.xpath("//div[@data-component='aggregations']")[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 52, in <module>
+    card_variations = page.xpath("//div[@class='variations-wrapper']/span[@class='variations-message']")[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 56, in <module>
+    not_found = page.xpath("//div[@data-component='notfound']")[0]
+IndexError: list index out of range
+
+
+##### 2019-02-22 22:37:09.024946 - shoptime - 43922828 
+ #####Traceback (most recent call last):
+  File "crawler_itens.py", line 24, in <module>
+    html_cb_ame = page.xpath("//span[contains(text(),'com Ame e receba')]/span[3]/span/text()")[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 44, in <module>
+    out_of_stock = page.xpath("//span[@id='title-stock']")[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 48, in <module>
+    is_not_product = page.xpath("//div[@data-component='aggregations']")[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 52, in <module>
+    card_variations = page.xpath("//div[@class='variations-wrapper']/span[@class='variations-message']")[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 56, in <module>
+    not_found = page.xpath("//div[@data-component='notfound']")[0]
+IndexError: list index out of range
+
+
+##### 2019-02-22 22:37:41.349066 - shoptime - 43050498 
+ #####Traceback (most recent call last):
+  File "crawler_itens.py", line 24, in <module>
+    html_cb_ame = page.xpath("//span[contains(text(),'com Ame e receba')]/span[3]/span/text()")[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 44, in <module>
+    out_of_stock = page.xpath("//span[@id='title-stock']")[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 48, in <module>
+    is_not_product = page.xpath("//div[@data-component='aggregations']")[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 52, in <module>
+    card_variations = page.xpath("//div[@class='variations-wrapper']/span[@class='variations-message']")[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 56, in <module>
+    not_found = page.xpath("//div[@data-component='notfound']")[0]
+IndexError: list index out of range
+
+
+##### 2019-02-22 22:38:25.018818 - shoptime - 37956861 
+ #####Traceback (most recent call last):
+  File "crawler_itens.py", line 24, in <module>
+    html_cb_ame = page.xpath("//span[contains(text(),'com Ame e receba')]/span[3]/span/text()")[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 44, in <module>
+    out_of_stock = page.xpath("//span[@id='title-stock']")[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 48, in <module>
+    is_not_product = page.xpath("//div[@data-component='aggregations']")[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 52, in <module>
+    card_variations = page.xpath("//div[@class='variations-wrapper']/span[@class='variations-message']")[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 56, in <module>
+    not_found = page.xpath("//div[@data-component='notfound']")[0]
+IndexError: list index out of range
+
+
+##### 2019-02-22 22:38:54.488661 - shoptime - 28302401 
+ #####Traceback (most recent call last):
+  File "crawler_itens.py", line 24, in <module>
+    html_cb_ame = page.xpath("//span[contains(text(),'com Ame e receba')]/span[3]/span/text()")[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 44, in <module>
+    out_of_stock = page.xpath("//span[@id='title-stock']")[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 48, in <module>
+    is_not_product = page.xpath("//div[@data-component='aggregations']")[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 52, in <module>
+    card_variations = page.xpath("//div[@class='variations-wrapper']/span[@class='variations-message']")[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 56, in <module>
+    not_found = page.xpath("//div[@data-component='notfound']")[0]
+IndexError: list index out of range
+
+
+##### 2019-02-24 15:49:03.796450 - submarino - 134186808 #####
+Traceback (most recent call last):
+  File "crawler_itens.py", line 35, in <module>
+    ame_result = float(cb_ame_html.replace('R$ ','').replace('.','').replace(',','.'))
+NameError: name 'cb_ame_html' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 53, in <module>
+    out_of_stock = page.xpath("//span[@id='title-stock']")[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 57, in <module>
+    its_gallery = page.xpath("//div[@data-component='aggregations']")[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 61, in <module>
+    card_variations = page.xpath("//div[@class='variations-wrapper']/span[@class='variations-message']")[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 65, in <module>
+    not_found = page.xpath("//div[@data-component='notfound']")[0]
+IndexError: list index out of range
+
+
+##### 2019-02-24 15:49:05.740747 - submarino - 133731106 #####
+Traceback (most recent call last):
+  File "crawler_itens.py", line 35, in <module>
+    ame_result = float(cb_ame_html.replace('R$ ','').replace('.','').replace(',','.'))
+NameError: name 'cb_ame_html' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 53, in <module>
+    out_of_stock = page.xpath("//span[@id='title-stock']")[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 57, in <module>
+    its_gallery = page.xpath("//div[@data-component='aggregations']")[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 61, in <module>
+    card_variations = page.xpath("//div[@class='variations-wrapper']/span[@class='variations-message']")[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 65, in <module>
+    not_found = page.xpath("//div[@data-component='notfound']")[0]
+IndexError: list index out of range
+
+
+##### 2019-02-24 15:49:07.240047 - submarino - 132639412 #####
+Traceback (most recent call last):
+  File "crawler_itens.py", line 35, in <module>
+    ame_result = float(cb_ame_html.replace('R$ ','').replace('.','').replace(',','.'))
+NameError: name 'cb_ame_html' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 53, in <module>
+    out_of_stock = page.xpath("//span[@id='title-stock']")[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 57, in <module>
+    its_gallery = page.xpath("//div[@data-component='aggregations']")[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 61, in <module>
+    card_variations = page.xpath("//div[@class='variations-wrapper']/span[@class='variations-message']")[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 65, in <module>
+    not_found = page.xpath("//div[@data-component='notfound']")[0]
+IndexError: list index out of range
+
+
+##### 2019-02-24 15:49:08.248850 - submarino - 133731122 #####
+Traceback (most recent call last):
+  File "crawler_itens.py", line 35, in <module>
+    ame_result = float(cb_ame_html.replace('R$ ','').replace('.','').replace(',','.'))
+NameError: name 'cb_ame_html' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 53, in <module>
+    out_of_stock = page.xpath("//span[@id='title-stock']")[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 57, in <module>
+    its_gallery = page.xpath("//div[@data-component='aggregations']")[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 61, in <module>
+    card_variations = page.xpath("//div[@class='variations-wrapper']/span[@class='variations-message']")[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 65, in <module>
+    not_found = page.xpath("//div[@data-component='notfound']")[0]
+IndexError: list index out of range
+
+
+##### 2019-02-24 15:49:10.371658 - submarino - 133453169 #####
+Traceback (most recent call last):
+  File "crawler_itens.py", line 35, in <module>
+    ame_result = float(cb_ame_html.replace('R$ ','').replace('.','').replace(',','.'))
+NameError: name 'cb_ame_html' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 53, in <module>
+    out_of_stock = page.xpath("//span[@id='title-stock']")[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 57, in <module>
+    its_gallery = page.xpath("//div[@data-component='aggregations']")[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 61, in <module>
+    card_variations = page.xpath("//div[@class='variations-wrapper']/span[@class='variations-message']")[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawler_itens.py", line 65, in <module>
+    not_found = page.xpath("//div[@data-component='notfound']")[0]
+IndexError: list index out of range
+
+

@@ -1,7 +1,2 @@
-1-	corrigir exceptions de smartphones do shoptime
-2-	alterar query de caputa do nome do produto para xpath de title, fazer replace do nome da loja
-3-	gravar apenas produtos com desconto >= 10%
-4-	gravar log de excessões em arquivo
-5-	remover cod-produto-galeria da lista de codigos
-6-	parametrizar crawler.py
-7-	testar crawler para todas as lojas
+1-  parametrizar crawler.py
+2-  testar crawler para todas as lojas
